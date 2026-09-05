@@ -1,0 +1,2 @@
+selection_dataset,selection_rule,selected_threshold,validation_precision,validation_recall,validation_f1,validation_targeting_rate_pct,test_precision,test_recall,test_f1,test_roc_auc,test_targeting_rate_pct
+Validation,Maximum F1 Score,0.6,0.4443,0.4953,0.4684,13.04,0.4434,0.4924,0.4666,0.7913,12.99

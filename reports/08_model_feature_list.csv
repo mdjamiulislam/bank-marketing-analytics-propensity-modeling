@@ -1,0 +1,24 @@
+feature,feature_type,included_in_model,reason
+age,Numeric,Yes,Pre-contact predictor
+balance,Numeric,Yes,Pre-contact predictor
+campaign,Numeric,Yes,Pre-contact predictor
+previous,Numeric,Yes,Pre-contact predictor
+previously_contacted,Numeric,Yes,Pre-contact predictor
+days_since_previous_contact,Numeric,Yes,Pre-contact predictor
+negative_balance_flag,Numeric,Yes,Pre-contact predictor
+previous_campaign_success_flag,Numeric,Yes,Pre-contact predictor
+active_loan_count,Numeric,Yes,Pre-contact predictor
+contact_known_flag,Numeric,Yes,Pre-contact predictor
+job,Categorical,Yes,Pre-contact predictor
+marital,Categorical,Yes,Pre-contact predictor
+education,Categorical,Yes,Pre-contact predictor
+default,Categorical,Yes,Pre-contact predictor
+housing,Categorical,Yes,Pre-contact predictor
+loan,Categorical,Yes,Pre-contact predictor
+contact,Categorical,Yes,Pre-contact predictor
+month,Categorical,Yes,Pre-contact predictor
+poutcome,Categorical,Yes,Pre-contact predictor
+duration,Numeric,No,Post-contact information; data leakage
+contact_duration_minutes,Numeric,No,Derived from duration; data leakage
+subscribed,Target label,No,Text representation of target
+campaign_record_id,Identifier,No,Artificial row identifier

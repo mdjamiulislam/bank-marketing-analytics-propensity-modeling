@@ -1,0 +1,7 @@
+metric,value
+Accuracy,0.8932
+Precision,0.662
+Recall,0.1777
+F1 Score,0.2802
+ROC-AUC,0.7718
+Majority-Class Baseline Accuracy,0.883

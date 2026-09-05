@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+venv/
+
+# PyCharm
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter / temporary files
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Power BI temporary files
+~$*.pbix
+
+# Logs
+*.log

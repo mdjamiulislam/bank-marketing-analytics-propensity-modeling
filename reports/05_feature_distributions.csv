@@ -1,0 +1,28 @@
+feature,category,count,percentage
+age_group,30-39,18089,40.01
+age_group,40-49,11655,25.78
+age_group,50-59,8410,18.6
+age_group,18-29,5273,11.66
+age_group,60+,1784,3.95
+balance_band,"0-1,000",26814,59.31
+balance_band,"1,001-5,000",11786,26.07
+balance_band,Negative,3766,8.33
+balance_band,"5,001-10,000",2016,4.46
+balance_band,"10,001+",829,1.83
+campaign_contact_band,2-3 contacts,18026,39.87
+campaign_contact_band,1 contact,17544,38.8
+campaign_contact_band,4-5 contacts,5286,11.69
+campaign_contact_band,6+ contacts,4355,9.63
+previous_campaign_status,No previous contact,36954,81.74
+previous_campaign_status,Previous failure,4901,10.84
+previous_campaign_status,Previous other,1840,4.07
+previous_campaign_status,Previous success,1511,3.34
+previous_campaign_status,Previous outcome unknown,5,0.01
+loan_profile,Housing loan only,20763,45.92
+loan_profile,No loans,17204,38.05
+loan_profile,Housing + personal loans,4367,9.66
+loan_profile,Personal loan only,2877,6.36
+contact_quarter,Q2,22039,48.75
+contact_quarter,Q3,13721,30.35
+contact_quarter,Q4,4922,10.89
+contact_quarter,Q1,4529,10.02

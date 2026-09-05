@@ -1,0 +1,13 @@
+metric,value
+Total model records,45211.0
+Number of predictors,19.0
+Numeric predictors,10.0
+Categorical predictors,9.0
+Training records,36168.0
+Testing records,9043.0
+Overall positive rate (%),11.7
+Training positive rate (%),11.7
+Testing positive rate (%),11.7
+Missing values after preparation,0.0
+Random state,42.0
+Test size (%),20.0

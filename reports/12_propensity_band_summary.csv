@@ -1,0 +1,4 @@
+propensity_band,propensity_band_order,campaign_records,actual_subscribers,actual_subscription_rate,average_predicted_probability,minimum_probability,maximum_probability,record_share_pct,subscriber_share_pct,lift_vs_overall
+High Propensity,3,15070,3736,24.79,59.02,41.83,96.94,33.33,70.64,2.12
+Medium Propensity,2,15070,1029,6.83,35.15,28.59,41.83,33.33,19.46,0.58
+Low Propensity,1,15071,524,3.48,20.39,5.68,28.59,33.33,9.91,0.3

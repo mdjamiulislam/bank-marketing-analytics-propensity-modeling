@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c47f1cc9-2ab3-4dad-8eec-75c0d9aeab71" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Project_4_Bank_Marketing_Analytics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/bank_marketing_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/bank_marketing_features.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/bank_marketing_scored.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/model_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/processed/model_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/bank-full.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/logistic_regression_pipeline.joblib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/random_forest_deployment_pipeline.joblib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/random_forest_final_pipeline.joblib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/random_forest_pipeline.joblib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/powerbi/Project_4_Bank_Marketing_Analytics.pbix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/03_category_distribution.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/03_column_quality_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/03_numeric_outlier_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/03_numeric_range_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/04_cleaning_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/05_feature_distributions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/05_feature_engineering_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/06_age_group_performance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/06_balance_band_performance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/06_campaign_contact_performance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/06_contact_method_performance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/06_duration_performance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/06_job_performance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/06_kpi_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/06_loan_profile_performance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/06_month_performance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/06_previous_campaign_performance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/06_previous_contact_comparison.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/06_quarter_performance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/07_campaign_efficiency_table.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/07_executive_kpis.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/07_management_findings.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/07_segment_priority_table.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/08_model_feature_list.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/08_model_preparation_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/09_classification_report.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/09_confusion_matrix.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/09_logistic_coefficients.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/09_logistic_regression_metrics.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/09_logistic_test_predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/10_model_comparison.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/10_model_selection_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/10_random_forest_classification_report.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/10_random_forest_confusion_matrix.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/10_random_forest_feature_importance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/10_random_forest_metrics.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/10_random_forest_test_predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/11_final_test_predictions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/11_final_threshold_test_comparison.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/11_selected_threshold_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/11_threshold_analysis.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/12_priority_target_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/12_propensity_band_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/12_propensity_decile_performance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/12_scoring_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/eda_charts/01_subscription_rate_by_age_group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/eda_charts/02_subscription_rate_by_job.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/eda_charts/03_subscription_rate_by_balance_band.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/eda_charts/04_subscription_rate_by_loan_profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/eda_charts/05_subscription_rate_by_contact_method.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/eda_charts/06_subscription_rate_by_contact_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/eda_charts/07_subscription_rate_by_previous_campaign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/eda_charts/08_subscription_rate_by_month.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/model_charts/09_logistic_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/model_charts/09_logistic_roc_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/model_charts/10_model_roc_comparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/model_charts/10_random_forest_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/model_charts/10_random_forest_feature_importance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/model_charts/10_random_forest_roc_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/model_charts/11_targeting_rate_by_threshold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/model_charts/11_threshold_precision_recall_f1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/model_charts/12_propensity_decile_lift.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/model_charts/12_propensity_score_distribution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/model_charts/12_subscription_rate_by_propensity_band.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/01_Executive_Campaign_Overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/02_Customer_Finalcial_Profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/03_Campaign_Performance_Contact_Strategy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/04_Predictive_Targeting_Model_Performance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/05_Business_Recommendations_Methodology.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/00_environment_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/01_data_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/02_data_quality_audit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/03_data_cleaning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/04_feature_engineering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/05_exploratory_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/06_business_kpi_insights.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/07_model_preparation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/08_logistic_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/09_random_forest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/10_threshold_optimazation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/11_propensity_scoring.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/scripts/08_logistic_regression.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3IqUnVIzco6NtdEN2IinGrKU9ZF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.00_environment_test.executor": "Run",
+    "Python.01_data_profile.executor": "Run",
+    "Python.02_data_quality_audit.executor": "Run",
+    "Python.03_data_cleaning.executor": "Run",
+    "Python.04_feature_engineering.executor": "Run",
+    "Python.05_exploratory_analysis.executor": "Run",
+    "Python.06_business_kpi_insights.executor": "Run",
+    "Python.07_model_preparation.executor": "Run",
+    "Python.08_logistic_regression.executor": "Run",
+    "Python.09_random_forest.executor": "Run",
+    "Python.10_threshold_optimazation.executor": "Run",
+    "Python.11_propensity_scoring.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.11_propensity_scoring">
+    <configuration name="07_model_preparation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project_4_Bank_Marketing_Analytics" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/07_model_preparation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="08_logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project_4_Bank_Marketing_Analytics" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/08_logistic_regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="09_random_forest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project_4_Bank_Marketing_Analytics" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/09_random_forest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="10_threshold_optimazation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project_4_Bank_Marketing_Analytics" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/10_threshold_optimazation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11_propensity_scoring" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project_4_Bank_Marketing_Analytics" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/11_propensity_scoring.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.11_propensity_scoring" />
+        <item itemvalue="Python.10_threshold_optimazation" />
+        <item itemvalue="Python.09_random_forest" />
+        <item itemvalue="Python.08_logistic_regression" />
+        <item itemvalue="Python.07_model_preparation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c47f1cc9-2ab3-4dad-8eec-75c0d9aeab71" name="Changes" comment="" />
+      <created>1788491763118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788491763118</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

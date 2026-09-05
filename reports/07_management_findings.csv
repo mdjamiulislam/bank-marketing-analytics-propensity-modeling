@@ -1,0 +1,11 @@
+finding_id,area,finding,management_use
+1,Overall Campaign,"Overall subscription rate was 11.70% from 45,211 campaign records.",Use as the baseline for evaluating all customer and campaign segments.
+2,Age,The highest-converting age group was 60+ at 33.63%.,Review this segment as a higher-propensity targeting opportunity.
+3,Age Volume,"The age group generating the largest number of subscribers was 30-39 with 1,913 subscriptions.",Balance conversion rate with absolute subscriber volume when allocating campaign resources.
+4,Balance,"The highest-converting balance band was 10,001+ at 16.28%.",Assess customer financial position when designing campaign targeting rules.
+5,Loan Profile,The highest-converting loan profile was No loans at 18.22%.,Consider existing lending relationships when segmenting customers.
+6,Contact Channel,The strongest observed contact channel was cellular at 14.92%.,Review channel effectiveness while recognising that observational results do not prove causality.
+7,Contact Frequency,The highest observed conversion occurred in the 1 contact group at 14.60%.,Use contact-frequency performance to investigate possible diminishing returns from repeated contact.
+8,Previous Campaign,The strongest previous-campaign segment was Previous success with a 64.73% subscription rate.,Previous campaign history may provide a strong signal for future targeting.
+9,Contact Month,The highest observed monthly subscription rate occurred in mar at 51.99%.,Investigate month-level campaign variation but do not interpret the dataset as a complete time series.
+10,Call Duration,Average contact duration was 8.95 minutes for subscribers versus 3.69 minutes for non-subscribers.,Use duration descriptively only. Exclude it from the pre-contact predictive model to prevent data leakage.

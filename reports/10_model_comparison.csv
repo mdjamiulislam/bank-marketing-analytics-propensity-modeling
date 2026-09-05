@@ -1,0 +1,6 @@
+metric,logistic_regression,random_forest,difference_rf_minus_logistic,better_model
+Accuracy,0.8932,0.8142,-0.079,Logistic Regression
+Precision,0.662,0.3351,-0.3269,Logistic Regression
+Recall,0.1777,0.5974,0.4197,Random Forest
+F1 Score,0.2802,0.4293,0.1491,Random Forest
+ROC-AUC,0.7718,0.7913,0.0195,Random Forest

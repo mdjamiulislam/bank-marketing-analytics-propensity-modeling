@@ -1,0 +1,13 @@
+metric,value
+Historical campaign records,45211.0
+Actual subscribers,5289.0
+Overall subscription rate (%),11.7
+OOF ROC-AUC,0.7853
+Validated targeting threshold,0.6
+Priority target records,5905.0
+Priority target share (%),13.06
+Subscribers in priority target,2572.0
+Priority subscriber capture (%),48.63
+Minimum predicted probability,0.0568
+Maximum predicted probability,0.9694
+Average predicted probability,0.3819
