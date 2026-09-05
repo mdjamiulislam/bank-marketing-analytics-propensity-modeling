@@ -294,13 +294,3 @@ Machine Learning | Predictive Analytics | Propensity Modelling | Power BI | DAX 
 Data Cleaning | Feature Engineering | Data Visualisation | Banking Analytics
 
 
-### Before you push
-
-Check that these five image files exist with the **exact same names** used in the README:
-
-```text
-screenshots/01_Executive_Campaign_Overview.png
-screenshots/02_Customer_Financial_Profile.png
-screenshots/03_Campaign_Performance_Contact_Strategy.png
-screenshots/04_Predictive_Targeting_Model_Performance.png
-screenshots/05_Business_Recommendations_Methodology.png
