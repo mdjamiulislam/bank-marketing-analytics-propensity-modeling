@@ -187,21 +187,46 @@ This demonstrates how propensity ranking can support campaign-capacity planning.
 The highest-ranked:
 
 ## Power BI Dashboard
-### 1. Executive Campaign Overview
-Overall campaign performance, subscription rate, age-group response,
-contact method and monthly campaign activity.
-### 2. Customer & Financial Profile
-Customer response across age, occupation, account balance and loan profiles.
-### 3. Campaign Performance & Contact Strategy
-Analysis of contact method, campaign frequency, previous campaign history,
-contact month and call-duration patterns.
-### 4. Predictive Targeting & Model Performance
-Random Forest model performance, propensity segmentation, subscriber capture,
-model comparison and predictive feature importance.
-### 5. Business Recommendations & Methodology
-Management recommendations, model summary, limitations and the complete
-analytical workflow.
 
+### 1. Executive Campaign Overview
+
+Overall campaign performance, subscription rate, age-group response, contact method and monthly campaign activity.
+
+![Executive Campaign Overview](screenshots/01_Executive_Campaign_Overview.png)
+
+---
+
+### 2. Customer Financial Profile
+
+Customer response across age, occupation, account balance and loan profiles.
+
+![Customer Financial Profile](screenshots/02_Customer_Financial_Profile.png)
+
+---
+
+### 3. Campaign Performance & Contact Strategy
+
+Analysis of contact method, campaign frequency, previous campaign history, contact month and call-duration patterns.
+
+![Campaign Performance & Contact Strategy](screenshots/03_Campaign_Performance_Contact_Strategy.png)
+
+---
+
+### 4. Predictive Targeting & Model Performance
+
+Random Forest model performance, propensity segmentation, subscriber capture, model comparison and predictive feature importance.
+
+![Predictive Targeting Model Performance](screenshots/04_Predictive_Targeting_Model_Performance.png)
+
+---
+
+### 5. Business Recommendations & Methodology
+
+Management recommendations, model summary, limitations and the overall analytical methodology.
+
+![Business Recommendations & Methodology](screenshots/05_Business_Recommendations_Methodology.png)
+
+### Repository Structure
 ```
 bank-marketing-analytics-propensity-modeling/
 │
