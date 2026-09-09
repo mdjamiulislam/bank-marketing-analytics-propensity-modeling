@@ -87,6 +87,7 @@ Threshold Optimisation
 5-Fold Out-of-Fold Propensity Scoring
       ↓
 Power BI Dashboard
+```
 
 ## Key Business Results
 | Metric                             | Result |
