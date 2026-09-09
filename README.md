@@ -203,20 +203,29 @@ Management recommendations, model summary, limitations and the complete
 analytical workflow.
 
 ```
-## Repository Structure
 bank-marketing-analytics-propensity-modeling/
 │
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   └── raw/
+│       └── bank-full.csv
 │
 ├── models/
+│   ├── logistic_regression_pipeline.joblib
+│   └── random_forest_deployment_pipeline.joblib
 │
 ├── powerbi/
 │   └── Project_4_Bank_Marketing_Analytics.pbix
 │
 ├── reports/
-│   └── model_charts/
+│   ├── model_charts/
+│   ├── 07_executive_kpis.csv
+│   ├── 07_management_findings.csv
+│   ├── 10_model_comparison.csv
+│   ├── 10_model_selection_summary.csv
+│   ├── 11_selected_threshold_summary.csv
+│   ├── 12_priority_target_summary.csv
+│   ├── 12_propensity_decile_performance.csv
+│   └── 12_scoring_summary.csv
 │
 ├── screenshots/
 │   ├── 01_Executive_Campaign_Overview.png
@@ -226,7 +235,6 @@ bank-marketing-analytics-propensity-modeling/
 │   └── 05_Business_Recommendations_Methodology.png
 │
 ├── scripts/
-│   ├── 00_environment_test.py
 │   ├── 01_data_profile.py
 │   ├── 02_data_quality_audit.py
 │   ├── 03_data_cleaning.py
