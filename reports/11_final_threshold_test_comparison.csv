@@ -1,3 +1,0 @@
-threshold_name,threshold,accuracy,precision,recall,f1_score,roc_auc,targeting_rate_pct,true_negatives,false_positives,false_negatives,true_positives
-Default,0.5,0.8142,0.3351,0.5974,0.4293,0.7913,20.86,6731,1254,426,632
-Optimized,0.6,0.8683,0.4434,0.4924,0.4666,0.7913,12.99,7331,654,537,521
