@@ -202,6 +202,7 @@ model comparison and predictive feature importance.
 Management recommendations, model summary, limitations and the complete
 analytical workflow.
 
+```
 ## Repository Structure
 bank-marketing-analytics-propensity-modeling/
 │
@@ -241,6 +242,7 @@ bank-marketing-analytics-propensity-modeling/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 ## Methodology & Data Leakage Control
 One important modelling decision was the exclusion of:
